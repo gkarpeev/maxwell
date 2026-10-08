@@ -1,0 +1,17 @@
+{
+  "pdearena.h5": {
+    "url": "https://huggingface.co/datasets/pdearena/Maxwell-3D/resolve/945a09ca69064ecd588da832c783794dd852680e/Maxwell3D_test_126488.h5",
+    "bytes": 314575504,
+    "sha256": "b8fbaae84b2f003ebd24e30febd10919789d0efbb5d2234d4cf9826061c61db9"
+  },
+  "emval.h5": {
+    "url": "https://huggingface.co/datasets/ArenaPhysica/EMVal/resolve/07163bd776cfd29c8a606cc9376fb9eae6c8b9a9/v0/public/boards/005dd1adffdae031c7ae2ccd4f9f56d974b98c220d82b093874e955d4d1d8277/near_field.h5",
+    "bytes": 97093856,
+    "sha256": "bf0e25a0bee1461cf663960b68ec43c62010c20a19c72c4301073eee10be40a2"
+  },
+  "emval-design.json": {
+    "url": "https://huggingface.co/datasets/ArenaPhysica/EMVal/resolve/07163bd776cfd29c8a606cc9376fb9eae6c8b9a9/v0/public/boards/005dd1adffdae031c7ae2ccd4f9f56d974b98c220d82b093874e955d4d1d8277/design.json",
+    "bytes": 5453,
+    "sha256": "be582dce92b5babeaa23e15f94ff6db380736ebee647e4ecdbfa5c1b06bd3d2e"
+  }
+}

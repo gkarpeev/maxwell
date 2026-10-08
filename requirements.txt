@@ -1,0 +1,14 @@
+# Tested with Python 3.13.9 on macOS ARM64; ordinary modules, no package install.
+numpy==2.5.3
+scipy==1.18.1
+sympy==1.14.0
+symengine==0.14.1
+networkx==3.7
+matplotlib==3.11.2
+h5py==3.16.0
+fdtd==0.3.5
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+pytest==9.1.1
+ruff==0.16.10

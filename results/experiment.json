@@ -1,0 +1,462 @@
+{
+  "arena": {
+    "replay_seconds": 2.61467395798536,
+    "replay_e_error": 1.8137783320804593e-15,
+    "replay_h_error": 1.7807525778984283e-15,
+    "epsilon_reference": 10.0,
+    "fit_sample": 0,
+    "fit_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "holdout_frames_sample0": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "holdout_sample": 1,
+    "profile_seconds": 17.655030417023227,
+    "profile": [
+      [
+        6.0,
+        1.7952473730674918
+      ],
+      [
+        7.0,
+        2.1719064511804
+      ],
+      [
+        8.0,
+        2.3892928569180496
+      ],
+      [
+        9.0,
+        1.80007856711965
+      ],
+      [
+        10.0,
+        1.339122295879946e-30
+      ],
+      [
+        11.0,
+        1.601741211606338
+      ],
+      [
+        12.0,
+        2.2419270586384306
+      ],
+      [
+        13.0,
+        2.327061425702861
+      ],
+      [
+        14.0,
+        2.300029820836351
+      ]
+    ],
+    "fit_seconds": 21.52499829203589,
+    "fit": {
+      "name": "epsilon_r",
+      "value": 10.00000542670522,
+      "loss": 1.2416947314378027e-10,
+      "evaluations": 11,
+      "history": [
+        [
+          9.05572809000084,
+          1.7220333902349048
+        ],
+        [
+          10.94427190999916,
+          1.5300310446978171
+        ],
+        [
+          12.111456180001682,
+          2.264733231506913
+        ],
+        [
+          10.212455601780832,
+          0.173850247964713
+        ],
+        [
+          10.030079442418634,
+          0.003791178168765519
+        ],
+        [
+          9.657910342779465,
+          0.4488419692809851
+        ],
+        [
+          9.999786800363202,
+          1.9165993264418452e-07
+        ],
+        [
+          9.998449814732526,
+          1.0134971304461098e-05
+        ],
+        [
+          10.00000542670522,
+          1.2416947314378027e-10
+        ],
+        [
+          9.999971945047836,
+          3.318668704833807e-09
+        ],
+        [
+          10.000038908362605,
+          6.3830144086976615e-09
+        ]
+      ]
+    },
+    "epsilon_relative_error": 5.426705220301642e-07,
+    "sample0": {
+      "e_per_frame": [
+        9.351899617564791e-06,
+        1.0290174783994804e-05,
+        1.2056482000777605e-05,
+        1.27995970877928e-05,
+        1.367990194453227e-05,
+        1.4560948895809198e-05,
+        1.6410952370625986e-05,
+        1.845145188723937e-05
+      ],
+      "h_per_frame": [
+        9.266624726646571e-06,
+        1.0642513273329752e-05,
+        1.0925078909677713e-05,
+        1.2473218396380545e-05,
+        1.3771760297151545e-05,
+        1.5810896076764045e-05,
+        1.5792152297874508e-05,
+        1.5936210570267743e-05
+      ],
+      "e_holdout": 1.548540325946297e-05,
+      "h_holdout": 1.5259600726292414e-05
+    },
+    "sample1": {
+      "e_per_frame": [
+        9.072334229617787e-06,
+        1.014255395810736e-05,
+        1.1743447838083961e-05,
+        1.2608044026843974e-05,
+        1.3986370906672903e-05,
+        1.535865975443231e-05,
+        1.658895443359362e-05,
+        1.7392867839800953e-05
+      ],
+      "h_per_frame": [
+        9.455229042394697e-06,
+        1.0686910508807079e-05,
+        1.1290884374378276e-05,
+        1.3185737786460172e-05,
+        1.4225720333891814e-05,
+        1.5644509927161987e-05,
+        1.612246992119484e-05,
+        1.6948619410141807e-05
+      ],
+      "e_holdout": 1.3346232217276618e-05,
+      "h_holdout": 1.34563111724846e-05
+    },
+    "baseline_e_error": 1.5674267282981387,
+    "baseline_h_error": 1.4571187763831948,
+    "total_seconds": 50.69389691599645
+  },
+  "analytic": {
+    "convergence": [
+      {
+        "n": 12,
+        "dt_s": 3.3356409519815207e-12,
+        "time_s": 4.0027691423778245e-11,
+        "electric_relative_l2": 0.01789819312353136,
+        "magnetic_relative_l2": 0.019396972115248403,
+        "relative_energy_drift": 0.00011015225085375668,
+        "div_e_dimensionless": 2.6645352591003757e-14,
+        "div_h_dimensionless": 1.5987211554602254e-14
+      },
+      {
+        "n": 24,
+        "dt_s": 1.6678204759907604e-12,
+        "time_s": 4.0027691423778245e-11,
+        "electric_relative_l2": 0.00457403765152273,
+        "magnetic_relative_l2": 0.004760670644481502,
+        "relative_energy_drift": 6.897204560596393e-06,
+        "div_e_dimensionless": 8.93152218850446e-14,
+        "div_h_dimensionless": 5.928590951498336e-14
+      },
+      {
+        "n": 48,
+        "dt_s": 8.339102379953802e-13,
+        "time_s": 4.0027691423778245e-11,
+        "electric_relative_l2": 0.001155524414292109,
+        "magnetic_relative_l2": 0.0011788299736886663,
+        "relative_energy_drift": 4.312353959479154e-07,
+        "div_e_dimensionless": 2.291500322826323e-13,
+        "div_h_dimensionless": 1.545430450278218e-13
+      }
+    ],
+    "continuum_fit": {
+      "name": "epsilon_r",
+      "value": 3.98407324682978,
+      "loss": 4.9310373131558736e-06,
+      "evaluations": 10,
+      "history": [
+        [
+          3.6458980337503153,
+          0.008506397355485107
+        ],
+        [
+          4.354101966249685,
+          0.008166574740490028
+        ],
+        [
+          4.791796067500631,
+          0.03424206449660935
+        ],
+        [
+          4.004577877638454,
+          3.283342822114748e-05
+        ],
+        [
+          4.003623212136528,
+          3.0304202981890993e-05
+        ],
+        [
+          3.9815868794488116,
+          5.3413882616111435e-06
+        ],
+        [
+          3.853365150036205,
+          0.001192941520401178
+        ],
+        [
+          3.9840182444706236,
+          4.931182606945873e-06
+        ],
+        [
+          3.98407324682978,
+          4.9310373131558736e-06
+        ],
+        [
+          3.9841066392564692,
+          4.931146103534756e-06
+        ]
+      ]
+    },
+    "epsilon_relative_error": 0.0039816882925549635,
+    "later_e_error": 0.0015350322141752886,
+    "later_h_error": 0.002994265981278166,
+    "seconds": 0.5516894579632208
+  },
+  "emval": {
+    "frequency_hz": 10499999744.0,
+    "port": 0,
+    "phasor_sign_documented": false,
+    "diagnostics": {
+      "40": {
+        "air": {
+          "points": 2234,
+          "epsilon_r": 1.0,
+          "loss_tangent": 0.0,
+          "effective_sigma_S_m": 0.0,
+          "median_condition": 7.232514701645651,
+          "max_condition": 44.9631669529401,
+          "median_E_fit_residual": 0.3215646438497529,
+          "median_H_fit_residual": 0.27365892125897917,
+          "exp_-1iwt": {
+            "faraday": 0.8790424486912994,
+            "ampere_material": 0.8898606727521544,
+            "ampere_air_assumption": 0.8898606727521544
+          },
+          "exp_+1iwt": {
+            "faraday": 0.7747096380546166,
+            "ampere_material": 0.8630944709476124,
+            "ampere_air_assumption": 0.8630944709476124
+          }
+        },
+        "core": {
+          "points": 1617,
+          "epsilon_r": 3.55,
+          "loss_tangent": 0.0027,
+          "effective_sigma_S_m": 0.005598994027555937,
+          "median_condition": 11.312263488752272,
+          "max_condition": 30.615418531198724,
+          "median_E_fit_residual": 0.18040669439384577,
+          "median_H_fit_residual": 0.18027392769128406,
+          "exp_-1iwt": {
+            "faraday": 0.8869231496103381,
+            "ampere_material": 0.8642365362125006,
+            "ampere_air_assumption": 0.9513296852264475
+          },
+          "exp_+1iwt": {
+            "faraday": 0.8506289930010296,
+            "ampere_material": 0.8047167356042689,
+            "ampere_air_assumption": 0.9315325922310188
+          }
+        }
+      },
+      "60": {
+        "air": {
+          "points": 2234,
+          "epsilon_r": 1.0,
+          "loss_tangent": 0.0,
+          "effective_sigma_S_m": 0.0,
+          "median_condition": 6.778915772654175,
+          "max_condition": 53.20058272284953,
+          "median_E_fit_residual": 0.39709618430641913,
+          "median_H_fit_residual": 0.3485501050085956,
+          "exp_-1iwt": {
+            "faraday": 0.8687345982247957,
+            "ampere_material": 0.873872942295677,
+            "ampere_air_assumption": 0.873872942295677
+          },
+          "exp_+1iwt": {
+            "faraday": 0.6996360519519845,
+            "ampere_material": 0.8261047621783852,
+            "ampere_air_assumption": 0.8261047621783852
+          }
+        },
+        "core": {
+          "points": 1617,
+          "epsilon_r": 3.55,
+          "loss_tangent": 0.0027,
+          "effective_sigma_S_m": 0.005598994027555937,
+          "median_condition": 10.302903845859742,
+          "max_condition": 29.727008673740652,
+          "median_E_fit_residual": 0.23500418206427884,
+          "median_H_fit_residual": 0.23635121145437876,
+          "exp_-1iwt": {
+            "faraday": 0.8702989694092199,
+            "ampere_material": 0.8705744653538625,
+            "ampere_air_assumption": 0.9541212608969225
+          },
+          "exp_+1iwt": {
+            "faraday": 0.8410346347684763,
+            "ampere_material": 0.8105135626053206,
+            "ampere_air_assumption": 0.9343219626624203
+          }
+        }
+      },
+      "100": {
+        "air": {
+          "points": 2234,
+          "epsilon_r": 1.0,
+          "loss_tangent": 0.0,
+          "effective_sigma_S_m": 0.0,
+          "median_condition": 6.60636099494685,
+          "max_condition": 61.17056749213988,
+          "median_E_fit_residual": 0.48295423468956555,
+          "median_H_fit_residual": 0.44149448025582716,
+          "exp_-1iwt": {
+            "faraday": 0.8480639410205604,
+            "ampere_material": 0.8694505165858543,
+            "ampere_air_assumption": 0.8694505165858543
+          },
+          "exp_+1iwt": {
+            "faraday": 0.6464444768020917,
+            "ampere_material": 0.807331309406599,
+            "ampere_air_assumption": 0.807331309406599
+          }
+        },
+        "core": {
+          "points": 1617,
+          "epsilon_r": 3.55,
+          "loss_tangent": 0.0027,
+          "effective_sigma_S_m": 0.005598994027555937,
+          "median_condition": 9.726494594898584,
+          "max_condition": 29.821449946353695,
+          "median_E_fit_residual": 0.3067426420577215,
+          "median_H_fit_residual": 0.3130888042264364,
+          "exp_-1iwt": {
+            "faraday": 0.858643772974897,
+            "ampere_material": 0.8682065024257364,
+            "ampere_air_assumption": 0.9535531670114147
+          },
+          "exp_+1iwt": {
+            "faraday": 0.8183043657769488,
+            "ampere_material": 0.8177279417262329,
+            "ampere_air_assumption": 0.9369637007999237
+          }
+        }
+      }
+    },
+    "smooth_wave_control": {
+      "40": {
+        "air": {
+          "jacobian_e_relative_l2": 0.0046225090346078785,
+          "jacobian_h_relative_l2": 0.004622509034607749,
+          "faraday": 0.0022835817588887247,
+          "ampere": 0.002145257726984368
+        },
+        "core": {
+          "jacobian_e_relative_l2": 0.003822556563314312,
+          "jacobian_h_relative_l2": 0.0038225565633146913,
+          "faraday": 0.0019052041649051635,
+          "ampere": 0.0015672825238173134
+        }
+      },
+      "60": {
+        "air": {
+          "jacobian_e_relative_l2": 0.005287126820146315,
+          "jacobian_h_relative_l2": 0.005287126820146413,
+          "faraday": 0.002612088900732679,
+          "ampere": 0.0025438329462781264
+        },
+        "core": {
+          "jacobian_e_relative_l2": 0.0052526572902821264,
+          "jacobian_h_relative_l2": 0.005252657290282955,
+          "faraday": 0.0026176621719524477,
+          "ampere": 0.0021605651857999984
+        }
+      },
+      "100": {
+        "air": {
+          "jacobian_e_relative_l2": 0.006838353906818295,
+          "jacobian_h_relative_l2": 0.006838353906818332,
+          "faraday": 0.0033919397504926807,
+          "ampere": 0.003290818861820698
+        },
+        "core": {
+          "jacobian_e_relative_l2": 0.008641660762269587,
+          "jacobian_h_relative_l2": 0.008641660762269946,
+          "faraday": 0.004310637268789507,
+          "ampere": 0.0034745883288080474
+        }
+      }
+    },
+    "seconds": 0.35037725005531684
+  },
+  "symbolic_comparison": {
+    "expression": "c*(-2*t*x*z + t*x)/epsilon_r",
+    "derivative": "-2*c*x*z/epsilon_r + c*x/epsilon_r",
+    "equivalent": true,
+    "numeric_difference": 0.0,
+    "sympy_seconds": 0.0025006250361911952,
+    "symengine_seconds": 0.0004379999591037631,
+    "repeats": 100,
+    "versions": {
+      "sympy": "1.14.0",
+      "symengine": "0.14.1"
+    },
+    "finite": true
+  },
+  "notebook_seconds": 52.955304999952205,
+  "provenance": {
+    "python": "3.13.9",
+    "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+    "source_sha256": {
+      "analytic_benchmark.py": "05b410777088b0449e4fd916747036c4d0a86fd583bfe7a72cc8e7ffbb3db365",
+      "data_io.py": "f6dfe2daaf438ab2a9d434a1e8117e91159561abc066ab0e29497645f6b73b01",
+      "emval_check.py": "db616eb37a90c2ef3a83ff55c9604a9100398f58d834b7702283861a24c95f7a",
+      "experiments.py": "4faf6f1c41b4068b8797a44cca3c3064e5701e006c09a9a37bd34adcda40e8e7",
+      "inference.py": "cb86707bef9b0498c67a16e446112ede884802e366d96c09a9539405e76074a6",
+      "maxwell_fdtd.py": "6d3cdba5bcd9febee703a6697f30f75d9e907ae1f9505198fcb7b6b9393994da",
+      "maxwell_symbolic.py": "747866208196ffa6c76de8f33dd4483040632faf2ba77270d642c7735123f102",
+      "symbolic_comparison.py": "d9c25e51d9ca78c43dfdd0d9036ce8be28faab81e34a612bbee8e34c57eb99cc",
+      "symbolic_core.py": "fc1b8448667c0da74633902880afa53d76418c911c37498d5aaa9397f0e70e87",
+      "visualization.py": "176778bbb6408cdb6095d83a83897b5bd619242e3c71d96fb5af2f68f0ce72dd"
+    },
+    "data_manifest_sha256": "848e063c33a598c632b08633c30bf226e88f99212c33f240c8c9d6e31dbf8955"
+  }
+}

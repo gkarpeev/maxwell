@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "nodes": [
+    {
+      "kind": "field",
+      "shape": "vector",
+      "args": [],
+      "name": "e",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "field",
+      "shape": "vector",
+      "args": [],
+      "name": "h",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "parameter",
+      "shape": "scalar",
+      "args": [],
+      "name": "epsilon_r",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "parameter",
+      "shape": "scalar",
+      "args": [],
+      "name": "mu_r",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "parameter",
+      "shape": "scalar",
+      "args": [],
+      "name": "c",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "div",
+      "shape": "scalar",
+      "args": [
+        4,
+        2
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "curl",
+      "shape": "vector",
+      "args": [
+        1
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "scale",
+      "shape": "vector",
+      "args": [
+        5,
+        6
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "parameter",
+      "shape": "scalar",
+      "args": [],
+      "name": "gamma",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "div",
+      "shape": "scalar",
+      "args": [
+        8,
+        2
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "scale",
+      "shape": "vector",
+      "args": [
+        9,
+        0
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "sub",
+      "shape": "vector",
+      "args": [
+        7,
+        10
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "div",
+      "shape": "scalar",
+      "args": [
+        4,
+        3
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "curl",
+      "shape": "vector",
+      "args": [
+        0
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "scale",
+      "shape": "vector",
+      "args": [
+        12,
+        13
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "neg",
+      "shape": "vector",
+      "args": [
+        14
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "diff",
+      "shape": "vector",
+      "args": [
+        0
+      ],
+      "name": "",
+      "value": null,
+      "axis": "t",
+      "order": 1
+    },
+    {
+      "kind": "sub",
+      "shape": "vector",
+      "args": [
+        16,
+        11
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    },
+    {
+      "kind": "diff",
+      "shape": "vector",
+      "args": [
+        1
+      ],
+      "name": "",
+      "value": null,
+      "axis": "t",
+      "order": 1
+    },
+    {
+      "kind": "sub",
+      "shape": "vector",
+      "args": [
+        18,
+        15
+      ],
+      "name": "",
+      "value": null,
+      "axis": "",
+      "order": 1
+    }
+  ],
+  "roots": {
+    "e_rhs": 11,
+    "h_rhs": 15,
+    "e_residual": 17,
+    "h_residual": 19
+  },
+  "parameter_order": [
+    "epsilon_r",
+    "mu_r",
+    "c",
+    "gamma"
+  ]
+}
